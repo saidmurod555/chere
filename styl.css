@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contaner {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+.nabor {
+  width: 590px;
+  height: 310px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(./imig/pichinni.jpg);
+}
+.nabor h1 {
+  padding: 40px 10px 10px 30px;
+  width: 484px;
+  height: 40px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-transform: uppercase;
+
+  /* Primary/White */
+
+  color: #ffffff;
+}
+.nabor p {
+  width: 345px;
+  height: 52px;
+  padding: 90px 10px 93px 30px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  /* Primary/White */
+
+  color: #ffffff;
+}
+button a {
+  width: 140px;
+  height: 24px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Primary/White */
+
+  color: #ffffff;
+}
+button {
+  width: 200px;
+  height: 46px;
+  margin: 30px;
+  /* Primary/Orange */
+
+  background: #facba2;
+  border-radius: 5px;
+}
+button:hover {
+  width: 200px;
+  height: 46px;
+  margin: 30px;
+
+  background: #ff861b;
+  border-radius: 10px;
+}
+.sire {
+  width: 293px;
+  height: 310px;
+  left: 842px;
+  top: 196px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(./imig/nom_dor.jpg);
+}
+.zakas {
+  width: 293px;
+  height: 310px;
+  left: 1137px;
+  top: 196px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(./imig/chaes.jpg);
+}
+.zakas p {
+  width: 262px;
+  height: 24px;
+  padding-top: 220px;
+  padding-left: 15px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #fd9339;
+}
+.zakas h2 {
+  width: 238px;
+  height: 28px;
+  padding: 15px 0 0 15px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 127% */
+
+  text-transform: uppercase;
+
+  /* Primary/White */
+
+  color: #ffffff;
+}
+.sire p {
+  width: 262px;
+  height: 24px;
+  padding-top: 220px;
+  padding-left: 15px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Primary/Orange */
+
+  color: #fd9339;
+}
+.sire h2 {
+  width: 262px;
+  height: 28px;
+  padding: 15px 0 0 15px;
+
+  font-family: "Circe Rounded";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 127% */
+
+  text-transform: uppercase;
+
+  /* Primary/White */
+
+  color: #ffffff;
+}
